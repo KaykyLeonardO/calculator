@@ -1,6 +1,6 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     outline: 0;
     transition: all 0.5s ease;
@@ -17,7 +17,7 @@ a {
 body {
     background: rgb(238, 198, 217);
     background-color: radial-gradient(circle,
-    rgb(258,174,202, 1)05
+    rgb(258,174,202, 1)0%,
     rgb(148,187,233,1)100%
     );
 }
@@ -55,7 +55,7 @@ content: "";
 height: 30px;
 width: 30px;
 position: absolute;
-top: 505;
+top: 50%;
 transform: translate(-50%, -50%);
 border-radius: 50%;
 background-color: #333;
